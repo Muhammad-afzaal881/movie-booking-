@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #dc3545; /* same as bg-danger */
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 8px 15px;
+  background: white;
+  border: none;
+  cursor: pointer;
+}
