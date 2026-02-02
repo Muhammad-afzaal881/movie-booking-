@@ -4,6 +4,12 @@
   margin: auto;
   text-align: center;
 }
+h2{
+ color: white;
+}
+h3{
+  color: red;
+}
 
 .seat-grid {
   display: grid;

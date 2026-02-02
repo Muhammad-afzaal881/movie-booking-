@@ -20,6 +20,7 @@ function SeatSelection() {
   return (
     <div className="seat-page">
       <h2>Select Seats</h2>
+      <h3>per seat price is <p>{seatPrice}</p></h3>
 
       <div className="seat-grid">
         {seats.map((seat) => (
