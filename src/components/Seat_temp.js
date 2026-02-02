@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Seat.css";
+import "./Seat_temp.css";
 
 function SeatSelection() {
   const navigate = useNavigate();

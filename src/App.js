@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
 import MovieDetail from "./components/Moviedetail";
-import SeatSelection from "./components/Seat";
+import SeatSelection from "./components/Seat_temp";
 import Payment from "./components/Payment";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
