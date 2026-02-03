@@ -3,6 +3,10 @@
   max-width: 600px;
   margin: auto;
   text-align: center;
+  display: flex;
+   flex-wrap: wrap; /* Isse cards niche wali line mein aa jayenge agar jagah kam hui */
+    justify-content: center; /* Cards ko center mein rakhne ke liye */
+    gap: 20px; 
 }
 h2{
  color: white;

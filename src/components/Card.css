@@ -15,7 +15,12 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Isse cards niche wali line mein aa jayenge agar jagah kam hui */
+    justify-content: center; /* Cards ko center mein rakhne ke liye */
+    gap: 20px; /* Cards ke darmiyan fasla */
 }
+
 
 /* Single Card */
 .Cards {

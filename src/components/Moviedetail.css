@@ -2,6 +2,8 @@
   display: flex;
   gap: 30px;
   padding: 40px;
+   flex-wrap: wrap; /* Isse cards niche wali line mein aa jayenge agar jagah kam hui */
+    justify-content: center; /* Cards ko center mein rakhne ke liye */
 }
 /* Left image */
 img {
@@ -9,6 +11,12 @@ img {
   height: auto;
   object-fit: cover;
   border: 1px solid #ccc;
+}
+.session{
+  display: flex;
+    flex-wrap: wrap; /* Isse cards niche wali line mein aa jayenge agar jagah kam hui */
+    justify-content: center; /* Cards ko center mein rakhne ke liye */
+    gap: 20px; /* Cards ke darmiyan fasla */
 }
 
 h1 {
@@ -36,14 +44,14 @@ h5 {
 .btn {
   margin: 15px;
   padding: 10px;
-  width: calc(80% - 30px);
+  width: 300px;
   background-color:red;
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 10px;
   height: 60px;
-  margin-left: 150px;
+
 }
 .btn:hover {
   opacity: 0.9;

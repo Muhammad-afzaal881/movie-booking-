@@ -11,7 +11,7 @@ const navigate = useNavigate();
   if (!movie) return <h2>Movie not found</h2>;
 
   return (
-    <session>
+    <div className="session">
     <div className="detail-page">
       <img src={movie.img} alt={movie.title} />
       <div className="text">
@@ -26,7 +26,7 @@ const navigate = useNavigate();
       >
         Confirm Booking
       </button>
-    </session>
+    </div>
   );
 }
 
